@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App flex">
       <Maps/>
-      <div className="left-side w-1/4">
+      <div className="left-side">
       <Attendance/>
       <Employee/>
       </div>

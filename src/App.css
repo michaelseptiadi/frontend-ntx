@@ -3,6 +3,10 @@
   height: 750px;
 }
 
+.left-side{
+  width: 25%;
+}
+
 .leaflet-tooltip{
   background-color: rgb(131, 131, 255);
   font-size: 12px;
