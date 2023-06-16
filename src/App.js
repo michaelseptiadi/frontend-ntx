@@ -6,7 +6,7 @@ import Employee from "./components/Employee/Employee";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex">
       <Maps/>
       <div className="left-side w-1/4">
       <Attendance/>

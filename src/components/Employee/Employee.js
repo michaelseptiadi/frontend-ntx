@@ -18,7 +18,7 @@ export default function Employee(){
     return(
         <div className="employee-information h-1/2 bg-zinc-900">
             <h3 className="text-center text-white text-bold py-2 w-full bg-zinc-700">Employee Information</h3>
-                <BarChart width={350} height={250} data={data} className="mt-12">
+                <BarChart width={350} height={250} data={data} className="mt-12 charts">
                     <Bar dataKey="sum" fill="#82ca9d" />
                     <CartesianGrid stroke="#ccc" strokeDasharray="8 8" />
                     <XAxis dataKey="name" />
